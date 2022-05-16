@@ -23,11 +23,9 @@ width: 99%;
   text-align: center;
   border-radius: 10%;
 border-width: thick;
+background-color: var(--body-bg-color);
 }
 
-#back {
-background: var(--body-bg-color)
-}
 
 .container {
   display: flex;
@@ -103,12 +101,6 @@ color: var(--purple);
   color: var(--body-bg-color);
 }
 
-
-body, html {
-  font-family: 'Poppins', sans-serif;
-  background-color: var(--purple)
-}
-
 /*.tree-container .socials-container {
   margin-top: 68px;
   display: grid;
@@ -125,3 +117,8 @@ body, html {
   transform: scale(1);
 }*/
 
+body, html {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--purple);
+
+}
