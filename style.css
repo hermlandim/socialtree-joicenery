@@ -13,15 +13,23 @@
 
 }
 
+.papel {
+  display: flex;
+  
+  border: solid green;
+border-radius: 10%;
+margin: 15px 15px;
+}
 
 .container {
-  margin: 0 auto;
+  margin: 15px auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 width: 100vw;
 height: 100vh;
-  border: solid green;
+
 }
 
 .container .tree-container {
