@@ -2,7 +2,7 @@
 
 :root {
   --body-bg-color: #FAF7FD;
-  --purple: green;
+  --purple: #50c878;
 }
 
 * {
@@ -14,24 +14,23 @@
 }
 
 .papel {
+  margin: 10px auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid green;
-border-radius: 10%;
-margin: 1% 1.5%;
-
-}
-
-.container {
-  margin: 15px auto;
-  display: flex;
+  border: solid var(--purple);
+width: 95%;
   align-items: center;
   justify-content: center;
   text-align: center;
+  border-radius: 10%;
+border-width: thick;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 width: 100vw;
 height: 100vh;
-
 }
 
 .container .tree-container {
@@ -49,7 +48,8 @@ height: 100vh;
   justify-content: center;
   border: 1px solid var(--purple);
   border-radius: 70%;
-    margin-top: 40px;
+  margin-top: 40px;
+  
 }
 
 .container .avatar img {
@@ -99,7 +99,7 @@ color: var(--purple);
   color: var(--body-bg-color);
 }
 
-.tree-container .socials-container {
+/*.tree-container .socials-container {
   margin-top: 68px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -113,7 +113,7 @@ color: var(--purple);
 
 .socials-container .social:hover {
   transform: scale(1);
-}
+}*/
 
 body, html {
   font-family: 'Poppins', sans-serif;
