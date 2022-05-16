@@ -49,7 +49,7 @@ height: 100vh;
   justify-content: center;
   border: 1px solid var(--purple);
   border-radius: 70%;
-  
+    margin-top: 40px;
 }
 
 .container .avatar img {
