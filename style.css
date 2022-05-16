@@ -14,7 +14,7 @@
 }
 
 .papel {
-  margin: 10px auto;
+  margin: 0 auto;
   display: flex;
   border: solid green;
 width: 95%;
