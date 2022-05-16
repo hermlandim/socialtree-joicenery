@@ -13,16 +13,6 @@
 
 }
 
-.papel {
-  margin: 0 auto;
-  display: flex;
-  border: solid green;
-width: 95%;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border-radius: 10%;
-}
 
 .container {
   margin: 0 auto;
@@ -31,6 +21,7 @@ width: 95%;
   justify-content: center;
 width: 100vw;
 height: 100vh;
+  border: solid green;
 }
 
 .container .tree-container {
