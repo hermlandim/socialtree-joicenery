@@ -103,6 +103,12 @@ color: var(--purple);
   color: var(--body-bg-color);
 }
 
+
+body, html {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--purple)
+}
+
 /*.tree-container .socials-container {
   margin-top: 68px;
   display: grid;
@@ -119,8 +125,3 @@ color: var(--purple);
   transform: scale(1);
 }*/
 
-body, html {
-  font-family: 'Poppins', sans-serif;
-  background-color: var(--purple);
-
-}
