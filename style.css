@@ -15,7 +15,8 @@
 
 .papel {
   display: flex;
-  
+  justify-content: center;
+  align-items: center;
   border: solid green;
 border-radius: 10%;
 margin: 15px 15px;
