@@ -47,7 +47,7 @@ height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 5px solid var(--purple);
+  border: 1px solid var(--purple);
   border-radius: 70%;
   
 }
