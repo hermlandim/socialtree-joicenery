@@ -59,7 +59,7 @@ height: 100vh;
   border: 1px solid var(--purple);
   border-radius: 70%;
   margin-top: 40px;
-  
+  text-align: center;
 }
 
 .container .avatar img {
